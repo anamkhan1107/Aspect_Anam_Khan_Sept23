@@ -1,0 +1,66 @@
+main()
+{
+	int a,b,c,d,e;
+	clrscr();
+	printf("\n Enter 4 numbers: ");
+	scanf("%d%d%d%d",&a,&b,&c,&d);
+	if(a>b)
+	{
+	  e=a;
+	  a=b;
+	  b=e;
+	}
+	if(b>c)
+	{
+	  e=b;
+	  b=c;
+	  c=e;
+	}
+	if(c>d)
+	{
+	  e=c;
+	  c=d;
+	  d=e;
+	}
+	if(a>b)
+	{
+	  e=a;
+	  a=b;
+	  b=e;
+	}
+	if(b>c)
+	{
+	  e=b;
+	  b=c;
+	  c=e;
+	}
+	if(c>d)
+	{
+	  e=c;
+	  c=d;
+	  d=e;
+	}
+	if(a>b)
+	{
+	  e=a;
+	  a=b;
+	  b=e;
+	}
+	if(b>c)
+	{
+	  e=b;
+	  b=c;
+	  c=e;
+	}
+	if(c>d)
+	{
+	  e=c;
+	  c=d;
+	  d=e;
+	}
+	clrscr();
+	printf("\n Sorted Numbers: %d %d %d %d",a,b,c,d);
+	getch();
+
+}
+
